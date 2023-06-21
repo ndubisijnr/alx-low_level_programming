@@ -1,11 +1,24 @@
-#include <stdio.h>
-/**
- *  _putchar - print _putchar and goes to the next line.
- *  Return: _putchar
-*/
-int _putchar(void)
-{
-	printf("_putchar\n");
+#include "main.h"
 
+/**
+ * main - Entry outputs _purchar
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+
+int main(void)
+{
+
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
+
 }
