@@ -1,2 +1,2 @@
 #!/bin/bash
-betty $CFILE && gcc -E $CFILE > c
+betty $CFILE && gcc -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE -o c
