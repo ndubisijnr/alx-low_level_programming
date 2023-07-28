@@ -4,11 +4,11 @@
 #include "lists.h"
 
 /**
- * 
-* prints all the elements of a list_t list.
-* print_list prints nodes on all elements
+ * print_list - check the code
+ * @h: name of the list
+ * Return: nodes numbers.
+ */
 
-*/
 size_t print_list(const list_t *h)
 {
 	int list_count = 0;
@@ -23,5 +23,5 @@ size_t print_list(const list_t *h)
 		list_count++;
 		h = h->next;
 	}
-	return list_count;
+	return (list_count);
 }
