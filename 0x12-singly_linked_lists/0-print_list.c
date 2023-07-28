@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "main.h"
+#include "lists.h"
 
 /**
  * 
@@ -23,5 +23,5 @@ size_t print_list(const list_t *h)
 		list_count++;
 		h = h->next;
 	}
-	return (list_count);
+	return list_count;
 }
