@@ -7,20 +7,12 @@
  *
  * Return: nothing
 */
-void free_list(list_t *head)
-{
-	list_t *current;
+void free_list(list_t* head) {
+    list_t* temp;
 
-	/**
-	 * while current head is not NULL
-	 * set head as the next node and
-	 * free the current node str then
-	 * free current node.
-	*/
-	while ((current = head) != NULL)
-	{
-		head = head->next;
-		free(current->str);
-		free(current);
-	}
+    while (head != NULL) {
+        temp = head;
+        head = head->next;
+        free(temp);
+    }
 }

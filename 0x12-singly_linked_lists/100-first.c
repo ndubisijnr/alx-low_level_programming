@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * premain - function that runs before main
+ * premain - function prints before main
  *
- * Return: nothing
+ * Return: void
 */
 
 void __attribute__ ((constructor)) premain()
