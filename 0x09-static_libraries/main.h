@@ -1,4 +1,3 @@
-#!/bin/bash
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 
@@ -24,4 +23,3 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
 #endif
-
